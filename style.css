@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  width: 80%;
+  height: 200%;
+  background: aqua;
+  margin: auto;
+}
+
+.btn {
+  font-size: 20px;
+  color: blue;
+  border: solid blue;
+  color: white;
+  background: blue;
+  padding: 10px 20px;
+  margin: 40px;
+  border-radius: 5px;
+  transition: padding 1s;
+}
+.btn:hover {
+  padding: 20px 30px;
+  background: slateblue;
+  border: solid slateblue;
+}
+/* 
+.btn:focus {
+  padding: 12px 22px;
+  background: rgb(38, 26, 110);
+  border: solid rgb(38, 26, 110);
+} */
